@@ -1,7 +1,7 @@
-from .FindingsGenerator import FinGen
+from .FindingsGenerator import RedGPT
 
 def main(args):
-    FinGen.CreateFinding(args.api_key, args.title)
+    RedGPT.CreateFinding(args.api_key, args.title)
 
 if __name__ == "__main__":
-    main(FinGen.get_parser().parse_args())
+    main(RedGPT.get_parser().parse_args())
