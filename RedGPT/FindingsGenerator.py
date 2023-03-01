@@ -3,10 +3,10 @@ import os
 from .Loader import Loader
 from revChatGPT.Official import Chatbot
 
-class FinGen:
+class RedGPT:
     @staticmethod
     def get_parser() -> argparse.ArgumentParser:
-        parser = argparse.ArgumentParser(usage="FinGen --api_key \"<OpenAI_Api_Key>\" --title \"<Finding Title>\"", description="FinGen CLI", prog="python -m FinGen")
+        parser = argparse.ArgumentParser(usage="RedGPT --api_key \"<OpenAI_Api_Key>\" --title \"<Finding Title>\"", description="RedGPT CLI", prog="python -m RedGPT")
         parser.add_argument(
             "-t",
             "--title",
