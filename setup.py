@@ -1,13 +1,13 @@
 from distutils.core import setup
 setup(
-  name = 'FinGen',
-  packages = ['FinGen'],
+  name = 'RedGPT',
+  packages = ['RedGPT'],
   version = '0.1.6',
   license='GPLv3',
   description = 'A penetration testing findings generator using ChatGPT.',
-  author = 'Stratus Security',
-  author_email = 'contact@stratussecurity.com',
-  url = 'https://github.com/Stratus-Security/FinGen',
+  author = 'Matheus Carvalho',
+  author_email = 'matheus.camara@gec.inatel.br',
+  url = 'https://github.com/MathCarv/RedGPT',
   keywords = ['ChatGPT', 'Pentesting', 'Penetration Testing', 'Findings Generator'],
   install_requires=[
     'revChatGPT'
